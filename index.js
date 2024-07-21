@@ -47,7 +47,7 @@ let holdGame = () => {
       document.querySelector(`#score--${active_player}`).textContent =
         score[active_player];
 
-      if (score[active_player] >= 10) {
+      if (score[active_player] >= 100) {
         playing_game = false;
         diceEle.classList.add("hidden");
         document
